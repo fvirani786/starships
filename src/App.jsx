@@ -1,6 +1,7 @@
 // src/App.jsx
 
 import { useState, useEffect } from 'react';
+import './App.css';
 import StarshipSearch from './components/StarshipSearch';
 import StarshipList from './components/StarshipList';
 import { fetchStarships } from './services/starshipService';
@@ -29,9 +30,13 @@ const App = () => {
 
   return (
     <main>
-      <h1>Starship Search</h1>
-      <StarshipSearch onSearch={handleSearch} />
-      {loading ? <p>Loading...</p> : <StarshipList starships={filteredStarships} />}
+      <h1 className="box">Starship Search</h1>
+      <div className="box">
+        <StarshipSearch onSearch={handleSearch} />
+      </div>
+      <div className="box">
+        {loading ? <p>Loading...</p> : <StarshipList starships={filteredStarships} />}
+      </div>
     </main>
   );
 }

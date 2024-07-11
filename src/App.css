@@ -57,9 +57,10 @@
   padding: 1em;
   border: 1px solid #ccc;
   border-radius: 8px;
-  background-color: #f9f9f9;
+  background-color: #11226e;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   text-align: left;
+  margin-bottom: 1rem;
 }
 
 .starship-card h2 {
@@ -67,6 +68,18 @@
   margin-bottom: 0.5em;
 }
 
-.starship-card p {
-  margin: 0.5em 0;
+.starship-card .info {
+  padding: 0.5em;
+  border: 1px solid #942020;
+  border-radius: 8px;
+  background-color: #090202;
+  margin-bottom: 0.5em;
+}
+
+.starship-card .info h3 {
+  margin: 0;
+}
+
+.starship-card .info p {
+  margin: 0;
 }
