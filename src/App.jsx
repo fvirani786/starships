@@ -35,7 +35,13 @@ const App = () => {
         <StarshipSearch onSearch={handleSearch} />
       </div>
       <div className="box">
-        {loading ? <p>Loading...</p> : <StarshipList starships={filteredStarships} />}
+        {loading ? <p>Loading your battle ships! Get ready!...</p> : <StarshipList starships={filteredStarships} />}
+        
+      </div>
+      <div className='box'>
+        
+
+
       </div>
     </main>
   );

@@ -9,16 +9,17 @@
 }
 
 .logo {
-  height: 6em;
-  padding: 1.5em;
+  height: 8em;
+  padding: 2.5em;
   will-change: filter;
-  transition: filter 300ms;
+  transition: filter 3000ms;
 }
 .logo:hover {
   filter: drop-shadow(0 0 2em #646cffaa);
 }
 .logo.react:hover {
   filter: drop-shadow(0 0 2em #61dafbaa);
+
 }
 
 @keyframes logo-spin {
@@ -58,7 +59,7 @@
   border: 1px solid #ccc;
   border-radius: 8px;
   background-color: #11226e;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 2px 4px rgba(131, 192, 26, 0.1);
   text-align: left;
   margin-bottom: 1rem;
 }
@@ -82,4 +83,9 @@
 
 .starship-card .info p {
   margin: 0;
+}
+
+.box {
+  background: rgb(2,0,36);
+  background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
 }
